@@ -1,11 +1,14 @@
 /* * {
     border: lightblue 1px solid;
 } */
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
 
 /*---- Home Page and Main Styling ----*/
 body {
     background-color: #f8ecc3;
-    font-family: "Source Code Pro", monospace;
+    /* font-family: "Source Code Pro", monospace; */
+    font-family: 'Dosis', monospace;
     line-height: 1.4;
     font-size: .8em;
     margin: 0;
@@ -47,6 +50,7 @@ body {
     border-top-right-radius: 50% 80px;
     border-bottom-right-radius: 50% 0px;
     border-bottom-left-radius: 50% 0px;
+    font-size: 1.2em;
     
 }
 
