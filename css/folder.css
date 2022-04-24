@@ -43,6 +43,12 @@ body {
     
 }
 
+
+.content {
+    text-align: center;
+    margin: 40px;
+}
+
 /*---- Icon and Link Styling ----*/
 
 .icon {
@@ -111,14 +117,6 @@ img{
     /* max-width: 720px; */
 }
 
-
-
-
-
-.content {
-    text-align: left;
-    margin: 40px;
-}
 
 
 
