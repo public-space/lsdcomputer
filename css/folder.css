@@ -1,0 +1,134 @@
+/*---- Home Page and Main Styling ----*/
+body {
+    background-color: #ececec;
+    font-family: "Source Code Pro", monospace;
+    line-height: 1.4;
+    font-size: .8em;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    text-align: center;
+    margin: 2%;
+    padding: 2%;
+}
+
+.header img {
+    max-width: 50%;
+    height: auto;
+    padding: 5px;
+    margin: 5px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    padding: 10px;
+    margin: 10px;
+    border: solid 2px black;
+}
+
+.flexbox-container {
+    display: flex;
+    /* flex-wrap: wrap; */
+    gap: 10px;
+} 
+.flexbox-column {
+    min-height: 100;
+    
+}
+
+/*---- Icon and Link Styling ----*/
+
+.icon {
+    display: block;
+    height: 96px;
+    width: 128px;
+    line-height: 170px;
+    text-align: center;
+    margin-bottom: 30px;
+
+
+}
+.icon a {
+    display: block;
+    height: 96px;
+    width: 128px;
+    line-height: 170px;
+    text-align: center;
+    margin-bottom: 30px;
+    background: 
+        url('./icons/folder.gif') 
+        no-repeat;
+
+}
+
+.icon a:hover {
+    background-color: black;
+    color: white;
+} 
+
+
+.back-icon {
+    background: 
+        url('./icons/back.gif')
+        no-repeat;
+}
+
+.paper {
+    background:
+    url('./icons/paper.gif')
+    no-repeat;
+}
+
+a, a:link {
+    color: rgb(253, 59, 0);
+}
+
+a:hover {
+    color: blue;
+}
+
+
+a:active {
+    color: #333333;
+}
+
+
+
+.img-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+img{
+    max-width: 80vw;
+    /* max-width: 720px; */
+}
+
+
+
+
+
+.content {
+    text-align: left;
+    margin: 40px;
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+    .flexbox-container {
+        flex-wrap: wrap;
+    }
+
+    .flexbox-column {
+        flex:max(400px, 100%/2 + 1.0%);
+    }
+}

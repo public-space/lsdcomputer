@@ -1,0 +1,56 @@
+/* * {
+    border: lightblue 1px solid;
+} */
+
+/*---- Home Page and Main Styling ----*/
+body {
+    background-color: #f8ecc3;
+    font-family: "Source Code Pro", monospace;
+    line-height: 1.4;
+    font-size: .8em;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    text-align: center;
+    margin: 2%;
+    padding: 2%;
+}
+
+.header img {
+    max-width: 50%;
+    height: auto;
+    padding: 5px;
+    margin: 5px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.nav {
+    margin: 30px;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid black 2px;
+    width: 30vw;
+    height: 30vh;
+    border-top-left-radius: 50% 80px;
+    border-top-right-radius: 50% 80px;
+    border-bottom-right-radius: 50% 0px;
+    border-bottom-left-radius: 50% 0px;
+    
+}
+
+.link {
+    letter-spacing: 1px;
+    padding: 2px;
+}
