@@ -1,9 +1,9 @@
 body {
 
     background-color: #31714c;
-    font-family: "Source Code Pro", monospace;
-    line-height: 1.4;
-    font-size: .8em;
+    font-family: 'futura_ndmedium';
+    line-height: 1.5;
+    font-size: .9em;
     margin: 0;
     padding: 0;
 }
@@ -19,7 +19,7 @@ img{
 
 
 a, a:link {
-    color: rgb(253, 59, 0);
+    color: rgb(237, 59, 5);
 }
 
 a:hover {
@@ -69,30 +69,66 @@ div {
     text-align: center;
     margin-bottom: 30px;
     background: 
-        url('./icons/folder.gif') 
+        url('/images/icons/back.gif') 
         no-repeat;
 
 }
 
 
 .icon a:hover {
-    background-color: black;
-    color: white;
+    background-color: #f8ecc3;
+    color: black;
 } 
 
 
 .back-icon {
     background: 
-        url('./icons/back.gif')
+        url('/images/icons/back.gif')
         no-repeat;
 }
 
 .paper {
     background:
-    url('./icons/paper.gif')
+    url('/images/icons/paper.gif')
     no-repeat;
 }
 
+/* FOOTER */
+
+.footer {
+    background-color: #31714c;
+    position: fixed;
+    bottom: 0px;
+    padding-bottom: 20px;
+    width: 100%;
+    height: 20px;
+}
+
+.footer a { 
+    color: #000000; 
+    text-transform: uppercase; 
+    font-size: 12px; 
+    text-decoration: none; 
+    font-weight: bold; 
+    margin: 0px 15px; 
+    transition: opacity 300ms; 
+}
+
+.footer a:hover { 
+    opacity: 0.6; 
+}
+
+.socials {
+    float: left;
+    position: absolute;
+    left: 36px;
+}
+
+.dream_links {
+    float: right;
+    position: absolute;
+    right: 36px;
+}
 
 @media screen and (max-width: 600px) {
     .flexbox-container {

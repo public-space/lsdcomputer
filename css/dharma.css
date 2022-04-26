@@ -1,6 +1,6 @@
 /*---- Home Page and Main Styling ----*/
 body {
-    background-color: #f8ecc3;
+    background-color: #3e40a4;
     font-family: 'futura_ndmedium';
     line-height: 1.4;
     font-size: .8em;
@@ -52,19 +52,17 @@ body {
     letter-spacing: 1px;
     padding: 5px;
 }
-a {
-    color: black;
-}
+
 a:visited {
     color: black;
 }
-
 a:hover {
     font-size: 1.3em;
     text-decoration: none;
     color: black;
     text-transform: uppercase;
 }
+
 
 /* PAGE TITLE */
 
