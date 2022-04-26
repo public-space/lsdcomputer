@@ -1,0 +1,75 @@
+/*---- Home Page and Main Styling ----*/
+body {
+    background-color: #abdbe3;
+    font-family: 'futura_ndmedium';
+    line-height: 1.4;
+    font-size: .8em;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    text-align: center;
+    margin: 2%;
+    padding: 2%;
+}
+
+.header img {
+    max-width: 50%;
+    height: auto;
+    padding: 5px;
+    margin: 5px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* NAV AND TOMBSTONE */
+
+.nav {
+    margin: 30px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid black 2px;
+    width: 35vw;
+    height: 47vh;
+    border-top-left-radius: 50% 80px;
+    border-top-right-radius: 50% 80px;
+    border-bottom-right-radius: 50% 0px;
+    border-bottom-left-radius: 50% 0px;
+    font-size: 1.2em;
+    
+}
+
+.link {
+    letter-spacing: 1px;
+    padding: 5px;
+}
+
+a:visited {
+    color: black;
+}
+a:hover {
+    font-size: 1.3em;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+
+/* PAGE TITLE */
+
+.title {
+    font-family: Vivian;
+    text-align: center;
+    padding: 40px;
+    font-size: 36px;
+    margin-top: 10%;
+}
