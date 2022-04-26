@@ -1,8 +1,7 @@
-var folder = 'images/adult-mag-classified-ads-collection-1982-no.-1-d.-d.-teoli-jr.-a.-c.-43';
-
+var folder = '/images/erotica/adult-mag-classified-ads-collection-1982';
 
 adArray = [];
-folderLength = 70;
+folderLength = 71;
 
 for (var i = 0; i < folderLength; i++) {
     adArray.push(folder 
@@ -10,9 +9,16 @@ for (var i = 0; i < folderLength; i++) {
         + i + ').jpg');
 };
 
-var imgs = adArray.map(function(URL) {
-    var img = new Image();
-    img.src = URL;
-    document.body.appendChild(img);
-    return img;
-})
+// function galleryArray() {
+//     var gallery = document.getElementById('gallery');
+//     for (var i = 0; i < folderLength; i++) {
+//         // var newImg = document.createElement('img');
+//         // img.src = addArray[i];
+//         // gallery.appendChild(newImg);
+//         let newImg = document.createElement('p');
+//         newImg.innerHTML = 'why isnt this working';
+//         gallery.appendChild(newImg);
+// }};
+
+// galleryArray();
+
