@@ -29,7 +29,7 @@ $('#erotica').hover(function(){
 });
 
 $('.archive').hover(function(){
-	colorSwitch('#f8ecc3#f8ecc3#f8ecc3#f8ecc3');
+	colorSwitch('#f8ecc3');
 }, function(){
 	colorSwitch('#f8ecc3');
 });
@@ -55,7 +55,13 @@ $('#video').hover(function(){
 function colorSwitch(color){
 	$('body').css('background-color', color);
 	$('#footer').css('background-color', color);
-	// $('#home-nav-wrapper a').css('background-color', color);
-	// $('#home-nav-wrapper a .number').css('background-color', color);
-	// $('#home-nav-wrapper a .nav-title').css('background-color', color);
+	$('#home-nav-wrapper a').css('background-color', color);
+	$('#home-nav-wrapper a .number').css('background-color', color);
+	s$('#home-nav-wrapper a .nav-title').css('background-color', color);
 }
+
+$('#nav-icon').click( 
+    function(){ 
+		$(this).toggleClass('open');
+		$("#nav").toggleClass('open');    
+    });

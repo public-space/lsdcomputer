@@ -1,6 +1,7 @@
+
 /*---- Home Page and Main Styling ----*/
 body {
-    background-color: #ae5225;
+    background-color: #ffe02e;
     font-family: 'futura_ndmedium';
     line-height: 1.4;
     font-size: .8em;
@@ -8,18 +9,82 @@ body {
     padding: 0;
 }
 
-.header{
+.header {
     text-align: center;
-    margin: 2%;
-    padding: 2%;
+    margin: 0;
+    padding: 1%;
+    height: 50;
+    width: 100%;
+    display: block;
+    position: fixed;
+    top: 0px; 
+    background: #ffe02e;
 }
 
 .header img {
-    max-width: 50%;
+    max-width: 40%;
     height: auto;
     padding: 5px;
-    margin: 5px;
+    margin: 0px;
+    margin-top: 3px;
+    margin-right: 4vw;
+    float: right;
+    top: 1rem;
 }
+
+.container {
+    display: flex;
+    flex-direction: row;
+} 
+
+.page-title {
+    font-size: 48px;
+    padding: 2px;
+    margin-top: 15vh;
+    margin-bottom: 5px;
+    text-align: center;
+    
+}
+
+/* NAV */
+.hamburger {
+    position: fixed;
+    z-index: 100;
+    top: 1rem;
+    left: 1rem;
+    padding: 4px;
+    /* border: none; */
+    border: black solid 2px;
+    background: #ffe02e;
+    cursor: pointer;
+}
+
+.closeIcon {
+    display: none;
+}
+
+.menu {
+    position: fixed;
+    transform: translateY(-120%);
+    transition: transform 0.2s;
+    height: 100%;
+    width: 30vw;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+    background: #ffe02e;
+    color: white;
+    list-style: none;
+    padding-top: 4rem;
+}
+
+.showMenu {
+    transform: translateY(0);
+} 
+
+/* NAV AND TOMBSTONE */
 
 .container {
     display: flex;
@@ -28,23 +93,21 @@ body {
     align-items: center;
 }
 
-/* NAV AND TOMBSTONE */
-
 .nav {
-    margin: 30px;
-    padding: 50px;
+    margin-top: 100px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     border: solid black 2px;
-    width: 35vw;
-    height: 47vh;
-    border-top-left-radius: 50% 80px;
+    /* width: 35vw;
+    height: 47vh; */
+    /* border-top-left-radius: 50% 80px;
     border-top-right-radius: 50% 80px;
     border-bottom-right-radius: 50% 0px;
-    border-bottom-left-radius: 50% 0px;
-    font-size: 1.2em;
+    border-bottom-left-radius: 50% 0px; */
+    font-size: 1.1em;
     
 }
 
@@ -52,24 +115,141 @@ body {
     letter-spacing: 1px;
     padding: 5px;
 }
-
+a {
+    color: black;
+}
 a:visited {
     color: black;
 }
+
 a:hover {
-    font-size: 1.3em;
+    font-size: 1.2em;
     text-decoration: none;
     color: black;
     text-transform: uppercase;
 }
 
 
-/* PAGE TITLE */
+
+/*---- Deep Dream Image Gallery ----*/
+
 
 .title {
     font-family: Vivian;
-    text-align: center;
-    padding: 40px;
-    font-size: 36px;
-    margin-top: 10%;
 }
+
+.caption {
+    font-size: 18px;
+    font-weight: 200;
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+    padding-bottom: 20px;
+    /* box-shadow: 5px 5px 5px 5px rgb(148, 148, 148);
+    -moz-box-shadow: 5px 5px 5px rgb(148, 148, 148);
+    -webkit-box-shadow: 5px 5px 5px rgb(148, 148, 148);
+    -khtml-box-shadow: 5px 5px 5px rgb(148, 148, 148); */
+}
+
+.date {
+    padding: 5px;
+    margin: 5px;
+    font-size: 22px;
+}
+
+.ad {
+    display: block;
+}
+
+/* FOOTER */
+
+.footer {
+    background-color: #ffe02e;
+    position: fixed;
+    bottom: 0px;
+    padding-bottom: 20px;
+    width: 100%;
+    height: 20px;
+}
+
+.footer a { 
+    color: #000000; 
+    text-transform: uppercase; 
+    font-size: 12px; 
+    text-decoration: none; 
+    font-weight: bold; 
+    margin: 0px 15px; 
+    transition: opacity 300ms; 
+}
+
+.footer a:hover { 
+    opacity: 0.6; 
+}
+
+.socials {
+    float: left;
+    position: absolute;
+    left: 36px;
+}
+
+.dream_links {
+    float: right;
+    position: absolute;
+    right: 36px;
+}
+/* ---- Media Query / Responsive ---- */
+
+
+@media screen and (max-width: 650px) {
+    .flexbox-container {
+        flex-wrap: wrap;
+    }
+    .flexbox-column {
+        flex:max(400px, 100%/2 + 1.0%);
+    }
+
+    .nav {
+        margin-top: 100px;
+        padding: 5px;
+        font-size: 1.1em;
+    }
+
+    .link {
+        letter-spacing: .5px;
+        padding: 5px;
+        font-size: .8em;
+    }
+
+    .menu {
+        height: 100%;
+        width: 55vw;
+    }
+
+    a:hover {
+        font-size: 1em;
+    }
+
+    .hamburger {
+        top: .5rem;
+    }
+}
+
+
+/* ---- Image Styling ---- */
+
+.img-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100%;
+    margin-bottom: -50px;
+}
+img{
+    max-width: 90vw;
+    /* max-width: 720px; */
+}
+
+.image-box {
+    margin: 20px;
+}
+
