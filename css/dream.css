@@ -1,7 +1,7 @@
 
 /*---- Home Page and Main Styling ----*/
 body {
-    background-color: #ffe02e;
+    background-color: #f6efef;
     font-family: 'futura_ndmedium';
     line-height: 1.4;
     font-size: .8em;
@@ -18,7 +18,7 @@ body {
     display: block;
     position: fixed;
     top: 0px; 
-    background: #ffe02e;
+    background: #f6efef;
 }
 
 .header img {
@@ -55,7 +55,7 @@ body {
     padding: 4px;
     /* border: none; */
     border: black solid 2px;
-    background: #ffe02e;
+    background: #f6efef;
     cursor: pointer;
 }
 
@@ -74,7 +74,7 @@ body {
     right: 0;
     bottom: 0;
     z-index: 99;
-    background: #ffe02e;
+    background: #f6efef;
     color: white;
     list-style: none;
     padding-top: 4rem;
@@ -164,7 +164,7 @@ a:hover {
 /* FOOTER */
 
 .footer {
-    background-color: #ffe02e;
+    background-color: #f6efef;
     position: fixed;
     bottom: 0px;
     padding-bottom: 20px;
