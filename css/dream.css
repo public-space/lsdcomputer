@@ -132,6 +132,27 @@ a:hover {
 
 /*---- Deep Dream Image Gallery ----*/
 
+/* ---- Image Styling ---- */
+
+.img-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100%;
+    margin-bottom: -50px;
+}
+img{
+    max-width: 90vw;
+    /* max-width: 720px; */
+}
+
+.image-box {
+    margin: 20px;
+}
+
+
+
+/* ---- TITLE & CAPTION STYLING ---- */
 
 .title {
     font-family: Vivian;
@@ -260,24 +281,5 @@ a:hover {
     .hamburger {
         top: .5rem;
     }
-}
-
-
-/* ---- Image Styling ---- */
-
-.img-wrapper{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    min-height: 100%;
-    margin-bottom: -50px;
-}
-img{
-    max-width: 90vw;
-    /* max-width: 720px; */
-}
-
-.image-box {
-    margin: 20px;
 }
 
