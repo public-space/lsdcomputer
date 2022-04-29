@@ -46,15 +46,14 @@ body {
     
 }
 
-/* NAV */
+/*---- NAV ----*/
 .hamburger {
     position: fixed;
     z-index: 100;
     top: 1rem;
     left: 1rem;
     padding: 4px;
-    /* border: none; */
-    border: black solid 2px;
+    border: none;
     background: #2f946b;
     cursor: pointer;
 }
@@ -130,7 +129,6 @@ a:hover {
 }
 
 
-
 /*---- Deep Dream Image Gallery ----*/
 
 
@@ -199,8 +197,37 @@ a:hover {
 }
 /* ---- Media Query / Responsive ---- */
 
+/* -- Desktop Small Screen Size -- */
+@media screen and (max-width: 850px) {
+    .nav {
+        margin-top: 100px;
+        padding: 5px;
+        font-size: 1.1em;
+    }
 
-@media screen and (max-width: 650px) {
+    .link {
+        letter-spacing: .5px;
+        padding: 5px;
+        font-size: .8em;
+    }
+
+    .menu {
+        height: 100%;
+        width: 45vw;
+    }
+
+    a:hover {
+        font-size: 1em;
+    }
+
+    .hamburger {
+        top: 1rem;
+    }
+
+}
+
+/* -- Smartphone Size -- */
+@media screen and (max-width: 600px) {
     .flexbox-container {
         flex-wrap: wrap;
     }

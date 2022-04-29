@@ -53,8 +53,7 @@ body {
     top: 1rem;
     left: 1rem;
     padding: 4px;
-    /* border: none; */
-    border: black solid 2px;
+    border: none;
     background: #ffe02e;
     cursor: pointer;
 }
