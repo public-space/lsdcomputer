@@ -184,17 +184,18 @@ a:hover {
     opacity: 0.6; 
 }
 
-.socials {
-    float: left;
+.links {
     position: absolute;
+    float: left;
     left: 36px;
 }
 
-.dream_links {
+.socials {
     float: right;
     position: absolute;
     right: 36px;
 }
+
 /* ---- Media Query / Responsive ---- */
 
 /* -- Desktop Small Screen Size -- */
