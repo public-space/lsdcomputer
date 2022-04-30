@@ -16,20 +16,26 @@ $('#molecules').hover(function(){
 	colorSwitch('#f8ecc3');
 });
 
-$('#dharma').hover(function(){
-	colorSwitch('#3e40a4');
+$('#research').hover(function(){
+	colorSwitch('#f8ecc3');
 }, function(){
 	colorSwitch('#f8ecc3');
 });
 
-$('#erotica').hover(function(){
+$('#books-manuals').hover(function(){
 	colorSwitch('#f5bdab');
 }, function(){
 	colorSwitch('#f8ecc3');
 });
 
-$('.archive').hover(function(){
+$('#persons').hover(function(){
+	colorSwitch('#eab676');
+}, function(){
 	colorSwitch('#f8ecc3');
+});
+
+$('#dharma').hover(function(){
+	colorSwitch('#3e40a4');
 }, function(){
 	colorSwitch('#f8ecc3');
 });
@@ -46,11 +52,7 @@ $('#images').hover(function(){
 	colorSwitch('#f8ecc3');
 });
 
-$('#video').hover(function(){
-	colorSwitch('#eab676');
-}, function(){
-	colorSwitch('#f8ecc3');
-});
+
 
 function colorSwitch(color){
 	$('body').css('background-color', color);
