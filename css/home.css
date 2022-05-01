@@ -1,6 +1,10 @@
 /*---- Home Page and Main Styling ----*/
 body {
     background-color: #f8ecc3;
+    -webkit-transition: all .25s ease-in-out;
+    -moz-transition: all .25s ease-in-out;
+    -o-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
     font-family: 'futura_ndmedium';
     line-height: 1.4;
     font-size: .8em;
