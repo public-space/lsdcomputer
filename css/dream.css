@@ -19,6 +19,7 @@ body {
     position: fixed;
     top: 0px; 
     background: #f6efef;
+    right: -20px;
 }
 
 .header img {

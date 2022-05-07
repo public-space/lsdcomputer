@@ -19,6 +19,7 @@ body {
     position: fixed;
     top: 0px; 
     background: #fbefef;
+    right: -20px;
 }
 
 .header img {
@@ -30,6 +31,7 @@ body {
     margin-right: 4vw;
     float: right;
     top: 1rem;
+    
 }
 
 .container {
@@ -300,4 +302,8 @@ img{
     border-bottom-right-radius: 50% 0px;
     border-bottom-left-radius: 50% 0px; */
     font-size: 1.1em;
+}
+
+.article-title {
+    text-transform: uppercase;
 }
