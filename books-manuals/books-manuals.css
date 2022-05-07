@@ -1,7 +1,9 @@
 
 /*---- Home Page and Main Styling ----*/
 body {
-    background-color: #f5bdab;
+    /* background-color: #f5bdab; */
+    background-color: #f8ecc3;
+    /* background-color: #ae5225; */
     font-family: 'futura_ndmedium';
     line-height: 1.4;
     font-size: .8em;
@@ -368,4 +370,7 @@ img{
     padding: 10px;
     text-align: center;
     font-size: 20px;
+    position: relative;
+    left: 20px;
+    top: 40px;
 }
