@@ -285,7 +285,24 @@ img{
 
 .book-wrapper {
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+    border: pink 2px solid;
+}
+
+.book-row {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: stretch;
+    border: blue 2px solid;
+}
+
+.flexbox-column {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: stretch;
+    border: blue 2px solid;
 }
