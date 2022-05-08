@@ -287,7 +287,11 @@ img{
 }
 
 /*---- Book Styling -----*/
-
+.cover {
+    width: 40vw;
+    height: auto;
+    text-align: center;
+}
 
 /* 
 .book-wrapper {
