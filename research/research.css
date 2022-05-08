@@ -304,6 +304,9 @@ img{
     font-size: 1.1em;
 }
 
+.article {
+    margin-bottom: 20px;
+}
 .article-title {
     text-transform: uppercase;
 }
