@@ -307,7 +307,7 @@ img{
 .article {
     margin-bottom: 20px;
 }
-.article-title {
-    text-transform: uppercase;
-}
 
+.article-title {
+    font-size: 1.6em;
+}
