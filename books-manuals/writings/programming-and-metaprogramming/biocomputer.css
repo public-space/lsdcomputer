@@ -22,6 +22,7 @@ body {
     top: 0px; 
     background-color: #f8ecc3;
     right: -20px;
+    z-index: 1000;
 }
 
 .header img {
@@ -345,6 +346,34 @@ ol li {
 
 ul li {
     margin: 15px;
+}
+
+ol.parentheses {
+    counter-reset: list;
+}
+ol.parentheses > li {
+    list-style: none;
+    position: relative;
+}
+ol.parentheses > li:before {
+    counter-increment: list;
+    content: counter(list, lower-alpha) ") ";
+    position: absolute;
+    left: -1.4em;
+} 
+
+ol.parentheses-n {
+    counter-reset: list;
+}
+ol.parentheses-n > li {
+    list-style: none;
+    position: relative;
+}
+ol.parentheses-n > li:before {
+    counter-increment: list;
+    content: counter(list) ") ";
+    position: absolute;
+    left: -1.4em;
 }
 
 /* ----- EROWID WRITING/BOOK STYLING ----*/
