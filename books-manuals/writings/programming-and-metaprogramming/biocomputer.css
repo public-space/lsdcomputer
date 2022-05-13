@@ -201,6 +201,30 @@ a:hover {
     right: 36px;
 }
 
+/* -- Back and Folder Icons ---- */
+.icon {
+    position: relative;
+    float: left;
+    margin: 20px;
+}
+
+    .icon a {
+        display: block;
+        height: 96px;
+        width: 128px;
+        background: transparent url("/imgs/icons/folder.gif") no-repeat;
+        line-height: 170px;
+        text-align: center;
+    }
+
+    .icon a:hover {
+        background-color: black;
+        color: white;
+    }
+
+    .icon .back-icon {
+        background: transparent url("/imgs/icons/back.gif") no-repeat;
+    }
 /* ---- Media Query / Responsive ---- */
 
 /* -- Desktop Small Screen Size -- */
