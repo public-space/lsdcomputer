@@ -286,3 +286,31 @@ img{
     }
 }
 
+/*---- thumbnail gallery ----*/
+
+.thumb-wrapper {
+    margin-top: 60px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.thumbnail-gallery {
+    margin: 5px;
+    float:left;
+    width: 20vw;
+    /* padding-bottom: 60px; */
+}
+
+.thumbnail-gallery img:hover{
+    border: 1px solid black;
+}
+
+.thumbnail-gallery img {
+    width: 100%;
+    height: auto;
+}
+
+.thumbnail-gallery.desc{
+    padding: 15px;
+    text-align: center;
+}
