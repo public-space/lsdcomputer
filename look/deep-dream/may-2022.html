@@ -10,8 +10,12 @@
         />
         <link rel="stylesheet" href="dream.css" />
         <link rel="stylesheet" href="/css/fonts.css" />
+        <link
+            href="/node_modules/lightbox2/src/css/lightbox.css"
+            rel="stylesheet"
+        />
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-        <title>lsdcomputer | Deep Dream</title>
+        <title>Deep Dream| May 2022</title>
     </head>
     <!-- HEADER/NAV -->
     <header class="header" id="header">
@@ -42,6 +46,7 @@
                     <a class="link" id="persons" href="/persons/persons.html"
                         >4................................Persons</a
                     >
+
                     <a class="link" id="dharma" href="/dharma/dharma.html"
                         >5................................Dharma</a
                     >
@@ -64,6 +69,7 @@
                 </nav>
             </div>
         </div>
+
         <button class="hamburger">
             <i class="menuIcon material-icons">menu</i>
             <i class="closeIcon material-icons">close</i>
@@ -75,34 +81,24 @@
         <div class="page-title">
             <div class="title">Deep Dream</div>
         </div>
-        <div class="container">
-            <nav class="nav">
-                <a
-                    class="link"
-                    id="deep-dream"
-                    href="/look/deep-dream/deep-dream-about.html"
-                    >1.................What Is Deep Dream?
-                </a>
-                <a
-                    class="link"
-                    id="deep-dream"
-                    href="/look/deep-dream/deep-dream-layer-examples.html"
-                    >1........................Layer Examples
-                </a>
-                <a
-                    class="link"
-                    id="deep-dream"
-                    href="/look/deep-dream/april-2022.html"
-                    >1.............................April 2022
-                </a>
-                <a
-                    class="link"
-                    id="deep-dream"
-                    href="/look/deep-dream/may-2022.html"
-                    >1.............................May 2022
-                </a>
-            </nav>
+        <!-- May 13 2022 -->
+        <!-- start img wrapper-->
+            <div class="image-box">
+                <div class="image">
+                    <a
+                        href="/imgs/deepdream/2022/MAY/THIRTEEN/administration-building-layer-19.jpg"
+                        data-lightbox="May-13"
+                        data-title=""
+                    >
+                        <img src="/imgs/deepdream/2022/MAY/THIRTEEN/administration-building-layer-19.jpg" alt="" />
+                    </a>
+                </div>
+                <div class="caption"></div>
+            </div>
+            <!-- end contents-->
         </div>
+        <!-- end img wrapper-->
+        <br /><br />
         <!-- FOOTER -->
         <footer class="footer">
             <div class="links">
@@ -118,5 +114,11 @@
             </div>
         </footer>
         <!-- END FOOTER -->
+        <script src="/node_modules/lightbox2/src/js/lightbox.js"></script>
+        <script>
+            lightbox.option({
+                disableScrolling: true,
+            });
+        </script>
     </body>
 </html>
