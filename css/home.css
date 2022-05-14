@@ -89,3 +89,19 @@ a:hover {
     margin: 0px 15px; 
     transition: opacity 300ms; 
 } */
+
+.msg-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffe02e;
+    color: black;
+    width: 30vw;
+    height: 30vh; 
+}
+
+.inner-msg-box {
+    padding: 20px;
+    background-color: #f8ecc3;
+}
+
