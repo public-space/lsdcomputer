@@ -318,3 +318,13 @@ img{
     display: flex;
     /* justify-content: space-around; */
 }
+
+#pub {
+    background-color: rgb(25, 178, 25);
+    padding: 4px;
+}
+
+#add {
+    background-color: rgb(217, 80, 68);
+    padding: 4px;
+}
