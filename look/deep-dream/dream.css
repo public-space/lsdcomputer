@@ -229,7 +229,7 @@ img{
 /* ---- Media Query / Responsive ---- */
 
 /* -- Desktop Small Screen Size -- */
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 900px) {
     .nav {
         margin-top: 100px;
         padding: 5px;
@@ -244,7 +244,7 @@ img{
 
     .menu {
         height: 100%;
-        width: 45vw;
+        width: 50vw;
     }
 
     a:hover {
@@ -280,7 +280,7 @@ img{
 
     .menu {
         height: 100%;
-        width: 55vw;
+        width: 70vw;
     }
 
     a:hover {
