@@ -328,3 +328,13 @@ img{
     background-color: rgb(217, 80, 68);
     padding: 4px;
 }
+
+#pub-box {
+    border: 2px solid rgb(25, 178, 25);
+    padding: 2px;
+}
+
+#add-box {
+    border: 2px solid rgb(217, 80, 68);
+    padding: 2px;
+}
