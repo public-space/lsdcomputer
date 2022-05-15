@@ -47,6 +47,12 @@ body {
     
 }
 
+
+.flexbox-container {
+    display: flex;
+    flex-direction: row;
+}
+
 /* NAV */
 .hamburger {
     position: fixed;
@@ -313,4 +319,38 @@ img{
 .thumbnail-gallery.desc{
     padding: 15px;
     text-align: center;
+}
+
+
+.thumbnail-gallery-what {
+    margin: 5px;
+    float:left;
+    width: 10vw;
+    /* padding-bottom: 60px; */
+}
+
+.thumbnail-gallery-what img:hover{
+    border: 1px solid black;
+}
+
+.thumbnail-gallery-what img {
+    width: 100%;
+    height: auto;
+}
+
+.thumbnail-gallery-what.desc{
+    padding: 15px;
+    text-align: center;
+}
+
+.layer-nav {
+    margin-top: 5vh;
+    text-align: center;
+    font-size: 1em;
+}
+
+.top-nav {
+    margin-top: 1vh;
+    text-align: center;
+    font-size: 1em;
 }
