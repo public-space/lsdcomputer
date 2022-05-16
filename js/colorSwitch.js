@@ -46,7 +46,7 @@ $('#files').hover(function(){
 	colorSwitch('#f8ecc3');
 });
 
-$('#images').hover(function(){
+$('#deep-dream').hover(function(){
 	colorSwitch('#abdbe3');
 }, function(){
 	colorSwitch('#f8ecc3');
