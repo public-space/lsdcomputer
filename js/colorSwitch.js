@@ -47,7 +47,7 @@ $('#files').hover(function(){
 });
 
 $('#deep-dream').hover(function(){
-	colorSwitch('#abdbe3');
+	colorSwitch('#f6efef');
 }, function(){
 	colorSwitch('#f8ecc3');
 });
