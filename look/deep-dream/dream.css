@@ -83,6 +83,7 @@ body {
     color: white;
     list-style: none;
     padding-top: 4rem;
+    padding: 40px;
 }
 
 .showMenu {
@@ -96,6 +97,10 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+#menu-container {
+
 }
 
 .nav {
@@ -280,7 +285,7 @@ img{
 
     .menu {
         height: 100%;
-        width: 70vw;
+        width: 80vw;
     }
 
     a:hover {
@@ -360,3 +365,4 @@ img{
     /* padding: 15px; 
     border: 2px solid black; */
 }
+
