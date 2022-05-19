@@ -303,12 +303,15 @@ img{
     background-color: #2f946b;
 }
 
+.pdf-two {
+    background-color: #a03b1d;
+}
+
 .wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 40px;
     grid-auto-rows: minmax(100px, auto);
-    border: pink 2px solid;
 }
 
 .one {
