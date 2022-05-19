@@ -286,10 +286,62 @@ img{
     margin: 20px;
 }
 
+/* RESEARCH STYLING */
+
+.border-box {
+    margin-top: 40px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border: solid black 2px;
+    width: 60vw;
+    height: 50vh;
+    /* border-top-left-radius: 50% 80px;
+    border-top-right-radius: 50% 80px;
+    border-bottom-right-radius: 50% 0px;
+    border-bottom-left-radius: 50% 0px; */
+    font-size: 1.1em;
+}
+
+.article {
+    margin-bottom: 24px;
+    margin-top: 24px;
+    width: 60vw;
+    font-size: 1.2em;
+}
+
+
+.date-column {
+    display: flex;
+    /* justify-content: space-around; */
+}
+
+#pub {
+    background-color: rgb(25, 178, 25);
+    padding: 4px;
+}
+
+#add {
+    background-color: rgb(217, 80, 68);
+    padding: 4px;
+}
+
+#pub-box {
+    border: 2px solid rgb(25, 178, 25);
+    padding: 2px;
+}
+
+#add-box {
+    border: 2px solid rgb(217, 80, 68);
+    padding: 2px;
+}
+
 /*---- Book Styling -----*/
 
 
-/* 
+
 .book-wrapper {
     display: flex;
     flex-direction: row;
@@ -376,4 +428,4 @@ img{
     position: relative;
     left: 20px;
     top: 40px;
-} */
+} 
